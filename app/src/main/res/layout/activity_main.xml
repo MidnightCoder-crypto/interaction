@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:backgroundTint="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="SELECT SEMESTER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+
+            app:cardCornerRadius="4dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="SEM1"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/sem1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="SEM2"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/sem2"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="SEM3"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/sem3"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="SEM4"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/sem4"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="SEM5"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/sem5"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="SEM6"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/sem6"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="SEM7"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/sem7"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="SEM8"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/sem8"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="SEM9"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/sem9"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+            app:cardCornerRadius="4dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="SEM10"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/sem10"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
+
+

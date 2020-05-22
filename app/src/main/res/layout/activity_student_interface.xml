@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_interface">
+
+
+
+
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:textColor="#000000"
+            android:backgroundTint="@color/colorAccent"
+            android:textStyle="italic"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="SELECT DEPARTMENT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:elevation="10dp"
+
+        app:cardCornerRadius="16dp"
+        android:layout_margin="40dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:background="@color/coloring"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="CSE"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:id="@+id/cse"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+
+            app:cardCornerRadius="16dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColor="#000000"
+                    android:text="ISE"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/ise"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+
+            app:cardCornerRadius="16dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColor="#000000"
+                    android:text="ECE"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/ece"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:elevation="10dp"
+
+            app:cardCornerRadius="16dp"
+            android:layout_margin="40dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:background="@color/coloring"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColor="#000000"
+                    android:text="EEE"
+                    android:textStyle="bold"
+                    android:textSize="40dp"
+                    android:id="@+id/eee"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

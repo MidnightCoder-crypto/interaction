@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/BG"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teachers_Interface">
+
+
+
+
+        <TextView
+
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="SEM SELECTION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <androidx.cardview.widget.CardView
+
+            android:elevation="10dp"
+            app:cardCornerRadius="16dp"
+            android:layout_margin="20dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="@color/design_default_color_background"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#000000"
+                    android:layout_margin="10dp"
+                    android:gravity="center_horizontal"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="SELECT SEMESTER:"
+                    android:textSize="30dp" />
+                <Spinner
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:id="@+id/spin_sem"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"></Spinner>
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:elevation="10dp"
+        app:cardCornerRadius="16dp"
+        android:layout_margin="20dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/design_default_color_background"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="SELECT DEPARTMENT:"
+                android:textSize="30dp" />
+            <Spinner
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/spin_dept"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"></Spinner>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:background="#FFFFFF"
+            android:layout_margin="10dp"
+
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="NEXT"
+            android:textSize="30dp" />
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+

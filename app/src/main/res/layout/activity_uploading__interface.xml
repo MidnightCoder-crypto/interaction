@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BG"
+    tools:context=".Uploading_Interface">
+
+
+    <TextView
+
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="UPLOAD HERE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.cardview.widget.CardView
+        android:elevation="10dp"
+        app:cardCornerRadius="16dp"
+        android:layout_margin="20dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:background="@color/coloring"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+
+                android:hint="ENTER FILE NAME"
+                android:gravity="center"
+                android:id="@+id/file_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="30dp" />
+
+            <Button
+                android:background="#FFFFFF"
+                android:elevation="10dp"
+                android:text="SELECT"
+                android:textSize="30dp"
+                android:layout_margin="20dp"
+                android:padding="2dp"
+                android:id="@+id/btnSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:elevation="10dp"
+                android:text="UPLOAD"
+                android:background="#FFFFFF"
+                android:textSize="30dp"
+                android:layout_margin="20dp"
+                android:padding="2dp"
+                android:id="@+id/btnUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="0.0%"
+                android:id="@+id/textProgress"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ProgressBar
+
+
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

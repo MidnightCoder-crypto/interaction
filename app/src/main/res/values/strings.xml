@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Interaction</string>
+    <string-array name="semesters">
+        <item>sem1</item>
+        <item>sem2</item>
+        <item>sem3</item>
+        <item>sem4</item>
+        <item>sem5</item>
+        <item>sem6</item>
+        <item>sem7</item>
+        <item>sem8</item>
+        <item>sem9</item>
+        <item>sem10</item>
+    </string-array>
+
+
+    <string-array name="department">
+        <item>cse</item>
+        <item>ise</item>
+        <item>ece</item>
+        <item>eee</item>
+    </string-array>
+
+
+</resources>
